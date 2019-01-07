@@ -40,8 +40,8 @@ def advanced_bracket_check(bracket_string):
 
 def check_user_brackets(bracket_string):
     """
-    Function goes through checks if string of brackes if correct. Strats with simple and fast checks.
-    Returns False if any check fails.
+    Function goes through checks if string of brackes if correct. Strats with simple and fast checks,
+    ends with checks in seperate functions. Returns False if any check fails.
     """
     if len(bracket_string) % 2 != 0:
         result = False
